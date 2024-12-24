@@ -1,7 +1,7 @@
 {
-    "name": "Ultraviolet",
+    "name": "Riptide",
     "version": "1.0.0",
-    "description": "A highly sophisticated back-end web proxy to help students evade internet censorship",
+    "description": "A unique site for combating web filters and regaining internet freedom",
     "main": "app.js",
     "scripts": {
       "start": "node app.js"
@@ -20,4 +20,3 @@
       "ws": "^8.2.2"
     }
   }
-    
