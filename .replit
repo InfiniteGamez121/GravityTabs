@@ -1,13 +1,3 @@
 language = "nodejs"
-run = "npm run start"
-modules = ["nodejs-20", "web"]
-
-[deployment]
-run = ["sh", "-c", "npm run start"]
-
-[nix]
-channel = "stable-24_05"
-
-[[ports]]
-localPort = 8080
-externalPort = 80
+run = "./main.sh"
+onBoot = "chmod u+x main.sh"
